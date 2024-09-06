@@ -1,3 +1,3 @@
-import { parseArgs } from "@std/cli";
+import { parseArgs } from '@std/cli'
 
-console.dir(parseArgs(Deno.args));
+console.dir(parseArgs(Deno.args))
