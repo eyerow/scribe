@@ -9,25 +9,25 @@ Scribe is a simple CLI tool built with Deno that allows you to write and store d
 
 ## Usage
 
-You can compile `scribe` into a standalone binary and use it to create and append notes.
+You can install `scribe` into a standalone binary and use it to create and append notes.
 
-### Compiling to a Standalone Binary
+### Installation
 
-To compile the script into a standalone binary, run the following command:
+To install scribe, run the following command:
 
 ```
-deno task compile
+deno task install
 ```
-
-This will generate a binary named `scribe` that can be executed on your local machine.
 
 ### Write a Note
 
-Once compiled, you can use `scribe` to write a note:
+Once installed, you can use `scribe` to write a note:
 
 ```
-./scribe --note "This is my note"
+scribe "This is my note"
 ```
+
+You will be prompted to set a path for your notes
 
 ### Display Help
 
